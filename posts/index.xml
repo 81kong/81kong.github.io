@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Rona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 29 Jan 2020 08:02:10 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 13:29:23 +0800</lastBuildDate>
     
 	<atom:link href="http://81kong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用hugo搭建博客</title>
+      <link>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
+      
+      <guid>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框</description>
+    </item>
     
     <item>
       <title>第二篇boke</title>
@@ -17,8 +26,7 @@
       <pubDate>Wed, 29 Jan 2020 08:02:10 +0800</pubDate>
       
       <guid>http://81kong.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87/</guid>
-      <description>刚没看到第二篇，所以改了日期到29就看到了。
-1.30新加的内容，居然能看到了，神奇。 </description>
+      <description>刚没看到第二篇，所以改了日期到29就看到了。 1.30新加的内容，居然能看到了，神奇。</description>
     </item>
     
     <item>
@@ -27,9 +35,7 @@
       <pubDate>Sat, 25 Jan 2020 22:00:19 +0800</pubDate>
       
       <guid>http://81kong.github.io/posts/my-first-post/</guid>
-      <description>第一篇博客 大家好！
-我要经常写博客。
-hugo server -D </description>
+      <description>第一篇博客 大家好！ 我要经常写博客。 hugo server -D</description>
     </item>
     
   </channel>
