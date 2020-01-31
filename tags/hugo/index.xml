@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Rona&#39;s blog</title>
+    <link>http://81kong.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Rona&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 31 Jan 2020 13:29:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://81kong.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用hugo搭建博客</title>
+      <link>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
+      
+      <guid>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框</description>
+    </item>
+    
+  </channel>
+</rss>
