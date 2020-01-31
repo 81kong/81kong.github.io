@@ -35,11 +35,11 @@
 <meta itemprop="description" content="Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框">
 <meta itemprop="datePublished" content="2020-01-31T13:29:23&#43;08:00" />
 <meta itemprop="dateModified" content="2020-01-31T13:29:23&#43;08:00" />
-<meta itemprop="wordCount" content="1980">
+<meta itemprop="wordCount" content="2039">
 
 
 
-<meta itemprop="keywords" content="hugo," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="hugo,blog," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用hugo搭建博客"/>
 <meta name="twitter:description" content="Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框"/>
 
@@ -61,6 +61,16 @@
     <div class="flex-l items-center">
       
 
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
       
       
 
@@ -101,7 +111,7 @@
     <time class="f6 mv4 dib tracked" datetime="2020-01-31T13:29:23&#43;08:00">January 31, 2020</time>
     
     
-    <span class="post-word-count">, 1980 words</span>
+    <span class="post-word-count">, 2039 words</span>
   </header>
 
   <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框架。这类应用将 Markdown文件和主题一起编译成由 HTML、CSS、JavaScript组成的静态网页。
@@ -226,18 +236,27 @@ enableEmoji = true
 <li>在81kong.github.io-creator文件夹里新建.gitignore文件，里面写上<code>/public/</code></li>
 <li>在github中建新仓库81kong.github.io</li>
 <li>cd public，将仓库复制到本地，将public推送到仓库81kong.github.io。</li>
-<li>通过settings即可找到预览我的博客网址<a href="http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>。</li>
+<li>通过settings即可找到预览网址。</li>
 </ol>
+<h1 id="知识链接"><em>知识链接</em></h1>
+<p>如何在博客中添加字数统计：
+先在自己主题的single.html的配置中搜索要放的位置,并在{{ end }}后面添加一下代码,比如我的主题对应的single.html路径为themes\ananke\layouts_default\single.html，再添加如下代码：</p>
+<pre><code>&lt;span class=&quot;post-word-count&quot;&gt;, {{ .WordCount }} words&lt;/span&gt;
+</code></pre><p>·end·</p>
 <p>本文参考了以下文章：</p>
 <ol>
 <li><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
 <li><a href="https://mogeko.me/2018/018/">https://mogeko.me/2018/018/</a></li>
 </ol>
-<p>声明：版权归我所有，侵权必究。</p>
+<p>声明：转载请注明出处，侵权必究。</p>
 <ul class="pa0">
   
    <li class="list">
      <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/blog" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">blog</a>
    </li>
   
 </ul>

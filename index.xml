@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>About</title>
+      <link>http://81kong.github.io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://81kong.github.io/about/</guid>
+      <description>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
       <title>使用hugo搭建博客</title>
       <link>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
