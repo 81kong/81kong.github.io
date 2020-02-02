@@ -26,22 +26,22 @@
     
     
     <meta property="og:title" content="HTML入门笔记1" />
-<meta property="og:description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertext Markup L" />
+<meta property="og:description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertex" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://81kong.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/" />
 <meta property="article:published_time" content="2020-02-02T15:56:08+08:00" />
 <meta property="article:modified_time" content="2020-02-02T15:56:08+08:00" />
 <meta itemprop="name" content="HTML入门笔记1">
-<meta itemprop="description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertext Markup L">
+<meta itemprop="description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertex">
 <meta itemprop="datePublished" content="2020-02-02T15:56:08&#43;08:00" />
 <meta itemprop="dateModified" content="2020-02-02T15:56:08&#43;08:00" />
-<meta itemprop="wordCount" content="1001">
+<meta itemprop="wordCount" content="3580">
 
 
 
 <meta itemprop="keywords" content="HTML,front end," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="HTML入门笔记1"/>
-<meta name="twitter:description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertext Markup L"/>
+<meta name="twitter:description" content="本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。 什么是 HTML？ 超文本标记语言(Hypertex"/>
 
   </head>
 
@@ -111,14 +111,14 @@
     <time class="f6 mv4 dib tracked" datetime="2020-02-02T15:56:08&#43;08:00">February 2, 2020</time>
     
     
-    <span class="post-word-count">, 1001 words</span>
+    <span class="post-word-count">, 3580 words</span>
   </header>
 
-  <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>本文简单介绍了 HTML 的发展历史和用法。还介绍了全局属性以及一些标签，如章节标签和内容标签。</p>
+  <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。</p>
 <h1 id="什么是-html">什么是 HTML？</h1>
 <p>超文本标记语言(Hypertext Markup Language,简称:HTML)是一个可以用来结构化 Web 内容并给予其含义和目标的编码语言。HTML 常与 CSS、JavaScript 一起被用于设计网页、网页应用程序以及移动应用程序的用户界面。网页浏览器可以读取 HTML 文件，并将其渲染成可视化网页。HTML 是一种标记语言而非编程语言。它由一系列的元素（elements）所组成，不同的元素各有功用。HTML 由万维网联盟（W3C） 维护。</p>
 <h2 id="html-历史">HTML 历史</h2>
-<p>HTML 的首个公开描述出现于一个名为 HTML Tags 的文件中，由**蒂姆·伯纳斯-李(Tim Berners-Lee)**于 1991 年底提及。</p>
+<p>HTML 的首个公开描述出现于一个名为 HTML Tags 的文件中，由<strong>蒂姆·伯纳斯-李(Tim Berners-Lee)</strong> 于 1991 年底提及。</p>
 <blockquote>
 <p>它描述 18 个元素，包括 HTML 初始的、相对简单的设计。除了超链接标签外，其他设计都深受 CERN 内部一个以标准通用标记语言（SGML）为基础的文件格式 SGMLguid 的影响。</p>
 </blockquote>
@@ -169,9 +169,179 @@ HTML5 是 HTML 最新的修订版本，由万维网联盟（W3C）完成标准�
 <li><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code> — 指定文档的字符编码为 UTF-8。</li>
 <li><code>&lt;title&gt;&lt;/title&gt;</code> — 设置页面的标题，显示在浏览器标签页上。</li>
 </ul>
-<h1 id="html-的全局属性">HTML 的全局属性</h1>
-<p>全局属性是所有 HTML 元素共有的属性。它们可以用于所有元素，即使属性可能对某些元素不起作用。</p>
-<h1 id="html-的常用标签">HTML 的常用标签</h1>
+<h1 id="常用的-html-的全局属性">常用的 HTML 的全局属性</h1>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes">全局属性</a>是所有 HTML 元素共有的属性。它们可以用于所有元素，即使属性可能对某些元素不起作用。</p>
+<ul>
+<li>
+<p><strong>class</strong><br>
+一个以空格分隔的元素的类名（classes ）列表，它允许 CSS 和 Javascript 通过类选择器 (class selectors) 或 DOM 方法( <code>document.getElementsByClassName</code>)来选择和访问特定的元素。</p>
+</li>
+<li>
+<p><strong>contenteditable</strong><br>
+一个枚举属性（enumerated attribute），表示元素是否可被用户编辑。 如果可以，浏览器会调整元素的部件（widget）以允许编辑。</p>
+<ul>
+<li>true 或者空字符串，表明元素是可被编辑的；</li>
+<li>false，表明元素不能被编辑。</li>
+</ul>
+</li>
+<li>
+<p><strong>hidden</strong><br>
+布尔属性表示该元素尚未或不再相关。例如，它可用于隐藏在登录过程完成之前无法使用的页面元素。浏览器不会呈现此类元素。不得使用此属性隐藏可合法显示的内容。</p>
+</li>
+<li>
+<p><strong>id</strong><br>
+定义唯一标识符（ID），该标识符在整个文档中必须是唯一的。 其目的是在链接（使用片段标识符），脚本或样式（使用 CSS）时标识元素。<em>不到万不得已，不推荐使用。</em></p>
+</li>
+<li>
+<p><strong>style</strong><br>
+含要应用于元素的 CSS 样式声明。 请注意，建议在单独的文件中定义样式。 该属性和<code>&lt;style&gt;</code>元素主要用于快速样式化，例如用于测试目的。</p>
+</li>
+<li>
+<p><strong>tabindex</strong>
+整数属性，指示元素是否可以获取输入焦点（可聚焦），是否应该参与顺序键盘导航，如果是，则表示哪个位置。它可能需要几个值：</p>
+<ul>
+<li>负值表示该元素<del>应该是可聚焦的，但不应通过顺序键盘导航到达;</del> 无法用 Tab 访问；</li>
+<li>0 表示元素<del>应通过顺序键盘导航可聚焦和可到达，但其相对顺序由平台约定定义;</del> 最后一个被访问；</li>
+<li>正值意味着元素应该可以通过顺序键盘导航进行聚焦和访问;元素聚焦的顺序是 tabindex 的增加值。如果多个元素共享相同的 tabindex，则它们的相对顺序遵循它们在文档中的相对位置。</li>
+</ul>
+</li>
+<li>
+<p><strong>title</strong><br>
+包含表示与其所属元素相关信息的文本。 这些信息通常可以作为提示呈现给用户,但不是必须的。</p>
+</li>
+</ul>
+<h1 id="html-的常用标签httpsdevelopermozillaorgzh-cndocswebhtmlelement">HTML 的常用<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element">标签</a></h1>
+<h2 id="章节标签">章节标签</h2>
+<p>表示文章或书的层级</p>
+<ol>
+<li><code>&lt;h1&gt;–&lt;h6&gt;</code>标题(Heading)元素呈现了六个不同的级别的标题，<code>&lt;h1&gt;</code> 级别最高，而 <code>&lt;h6&gt;</code> 级别最低。
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code></td>
+<td>HTML <code>&lt;h1&gt;–&lt;h6&gt;</code> 标题(Heading)元素呈现了六个不同的级别的标题，<code>&lt;h1&gt;</code> 级别最高，而 <code>&lt;h6&gt;</code> 级别最低。</td>
+</tr>
+<tr>
+<td><code>&lt;section&gt;</code></td>
+<td>HTML <code>&lt;section&gt;</code>元素表示一个包含在 HTML 文档中的独立部分，它没有更具体的语义元素来表示，一般来说会有包含一个标题。</td>
+</tr>
+<tr>
+<td><code>&lt;article&gt;</code></td>
+<td>HTML <code>&lt;article&gt;</code>元素表示文档、页面、应用或网站中的独立结构，其意在成为可独立分配的或可复用的结构，如在发布中，它可能是论坛帖子、杂志或新闻文章、博客、用户提交的评论、交互式组件，或者其他独立的内容项目。</td>
+</tr>
+<tr>
+<td><code>&lt;p&gt;</code></td>
+<td>HTML <code>&lt;p&gt;</code>元素（或者说 HTML 段落元素）表示文本的一个段落。该元素通常表现为一整块与相邻文本分离的文本，或以垂直的空白隔离或以首行缩进。另外，<code>&lt;p&gt;</code> 是块级元素。</td>
+</tr>
+<tr>
+<td><code>&lt;main&gt;</code></td>
+<td>HTML <code>&lt;main&gt;</code> 元素呈现了文档的 <code>&lt;body&gt;</code> 或应用的主体部分。主体部分由与文档直接相关，或者扩展于文档的中心主题、应用的主要功能部分的内容组成。</td>
+</tr>
+<tr>
+<td><code>&lt;aside&gt;</code></td>
+<td>HTML <code>&lt;aside&gt;</code> 元素表示一个和其余页面内容几乎无关的部分，被认为是独立于该内容的一部分并且可以被单独的拆分出来而不会使整体受影响。</td>
+</tr>
+<tr>
+<td><code>&lt;footer&gt;</code></td>
+<td>HTML <code>&lt;footer&gt;</code> 元素表示最近一个章节内容或者根节点（sectioning root ）元素的页脚。一个页脚通常包含该章节作者、版权数据或者与文档相关的链接等信息。</td>
+</tr>
+<tr>
+<td><code>&lt;header&gt;</code></td>
+<td>HTML <code>&lt;header&gt;</code> 元素用于展示介绍性内容，通常包含一组介绍性的或是辅助导航的实用元素。它可能包含一些标题元素，但也可能包含其他元素，比如 Logo、搜索框、作者名称，等等。</td>
+</tr>
+<tr>
+<td><code>&lt;nav&gt;</code></td>
+<td>HTML <code>&lt;nav&gt;</code>元素表示页面的一部分，其目的是在当前文档或其他文档中提供导航链接。导航部分的常见示例是菜单，目录和索引。</td>
+</tr>
+<tr>
+<td><code>&lt;div&gt;</code></td>
+<td>HTML <code>&lt;div&gt;</code> 元素 (或 HTML 文档分区元素) 是一个通用型的流内容容器。</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<h2 id="内容标签">内容标签</h2>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;ol&gt;</code></td>
+<td>HTML <code>&lt;ol&gt;</code> 元素 表示多个有序列表项，通常渲染为有带编号的列表。</td>
+</tr>
+<tr>
+<td><code>&lt;ul&gt;</code></td>
+<td>HTML <code>&lt;ul&gt;</code> 元素（或称 HTML 无序列表元素）表示一个内可含多个元素的无序列表或项目符号列表。</td>
+</tr>
+<tr>
+<td><code>&lt;li&gt;</code></td>
+<td>HTML <code>&lt;li&gt;</code> 元素 （或称 HTML 列表条目元素） 用于表示列表里的条目。它必须包含在一个父元素里：一个有序列表(<code>&lt;ol&gt;</code>)，一个无序列表(<code>&lt;ul&gt;</code>)，或者一个菜单 (<code>&lt;menu&gt;</code>)。在菜单或者无序列表里，列表条目通常用点排列显示；在有序列表里，列表条目通常在左边显示按升序排列的计数，例如数字或者字母。</td>
+</tr>
+<tr>
+<td><code>&lt;dl&gt;</code></td>
+<td>HTML <code>&lt;dl&gt;</code> 元素 （或 HTML 描述列表元素）是一个包含术语定义以及描述的列表，通常用于展示词汇表或者元数据 (键-值对列表)。</td>
+</tr>
+<tr>
+<td><code>&lt;dt&gt;</code></td>
+<td>HTML <code>&lt;dt&gt;</code> 元素 （或 HTML 术语定义元素）用于在一个定义列表中声明一个术语。该元素仅能作为 <code>&lt;dl&gt;</code> 的子元素出现。通常在该元素后面会跟着 <code>&lt;dd&gt;</code> 元素， 然而，多个连续出现的 <code>&lt;dt&gt;</code> 元素都将由出现在它们后面的第一个 <code>&lt;dd&gt;</code> 元素定义。</td>
+</tr>
+<tr>
+<td><code>&lt;dd&gt;</code></td>
+<td>HTML <code>&lt;dd&gt;</code> 元素（HTML 描述元素）用来指明一个描述列表 (<code>&lt;dl&gt;</code>) 元素中一个术语的描述。这个元素只能作为描述列表元素的子元素出现，并且必须跟着一个 <code>&lt;dt&gt;</code> 元素。</td>
+</tr>
+<tr>
+<td><code>&lt;pre&gt;</code></td>
+<td>HTML <code>&lt;pre&gt;</code> 元素表示预定义格式文本。在该元素中的文本通常按照原文件中的编排，以等宽字体的形式展现出来，文本中的空白符（比如空格和换行符）都会显示出来。(紧跟在 <code>&lt;pre&gt;</code> 开始标签后的换行符也会被省略)。</td>
+</tr>
+<tr>
+<td><code>&lt;hr&gt;</code></td>
+<td>HTML <code>&lt;hr&gt;</code> 元素表示段落级元素之间的主题转换（例如，一个故事中的场景的改变，或一个章节的主题的改变）。在 HTML 的早期版本中，它是一个水平线。现在它仍能在可视化浏览器中表现为水平线，但目前被定义为语义上的，而不是表现层面上。</td>
+</tr>
+<tr>
+<td><code>&lt;br&gt;</code></td>
+<td>HTML <code>&lt;br&gt;</code> 元素在文本中生成一个换行（回车）符号。此元素在写诗和地址时很有用，这些地方的换行都非常重要。</td>
+</tr>
+<tr>
+<td><code>&lt;a&gt;</code></td>
+<td>HTML <code>&lt;a&gt;</code> 元素（或称锚元素）可以创建通向其他网页、文件、同一页面内的位置、电子邮件地址或任何其他 URL 的超链接。</td>
+</tr>
+<tr>
+<td><code>&lt;em&gt;</code></td>
+<td>HTML 着重元素 (<code>&lt;em&gt;</code>) 标记出需要用户着重阅读的内容， <code>&lt;em&gt;</code> 元素是可以嵌套的，嵌套层次越深，则其包含的内容被认定为越需要着重阅读。</td>
+</tr>
+<tr>
+<td><code>&lt;strong&gt;</code></td>
+<td>Strong 元素 (<code>&lt;strong&gt;</code>)表示文本十分重要，一般用粗体显示。</td>
+</tr>
+<tr>
+<td><code>&lt;code&gt;</code></td>
+<td>HTML <code>&lt;code&gt;</code> 元素呈现一段计算机代码. 默认情况下, 它以浏览器的默认等宽字体显示。</td>
+</tr>
+<tr>
+<td><code>&lt;q&gt;</code></td>
+<td>HTML 引用标签 (<code>&lt;q&gt;</code>)表示一个封闭的并且是短的行内引用的文本。 这个标签是用来引用短的文本，所以请不要引入换行符; 对于长的文本的引用请使用 <code>&lt;blockquote&gt;</code> 替代。</td>
+</tr>
+<tr>
+<td><code>&lt;blockquote&gt;</code></td>
+<td>HTML <code>&lt;blockquote&gt;</code> 元素（或者 HTML 块级引用元素），代表其中的文字是引用内容。通常在渲染时，这部分的内容会有一定的缩进（注 中说明了如何更改）。若引文来源于网络，则可以将原内容的出处 URL 地址设置到 cite 特性上，若要以文本的形式告知读者引文的出处时，可以通过 <code>&lt;cite&gt;</code> 元素。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="参考文章">参考文章</h3>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element">https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element</a></p>
+<p>-end-</p>
+<p>声明：原创，转载请注明出处，侵权必究。</p>
 <ul class="pa0">
   
    <li class="list">
