@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Rona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 03 Feb 2020 17:33:17 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 11:02:10 +0800</lastBuildDate>
     
 	<atom:link href="http://juruonan.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何在hugo中插入图片并上传之GitHub pages</title>
+      <link>http://juruonan.xyz/posts/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 06 Feb 2020 11:02:10 +0800</pubDate>
+      
+      <guid>http://juruonan.xyz/posts/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</guid>
+      <description>1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只</description>
+    </item>
     
     <item>
       <title>HTML常用标签</title>
@@ -35,7 +44,7 @@
       <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
       
       <guid>http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框</description>
+      <description>Hugo 是 Go 语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo 和 Hexo 一样，是一种通用的网站框架。这类应用将</description>
     </item>
     
     <item>

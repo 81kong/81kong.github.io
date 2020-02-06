@@ -26,22 +26,22 @@
     
     
     <meta property="og:title" content="使用hugo搭建博客" />
-<meta property="og:description" content="Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框" />
+<meta property="og:description" content="Hugo 是 Go 语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo 和 Hexo 一样，是一种通用的网站框架。这类应用将" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-01-31T13:29:23+08:00" />
 <meta property="article:modified_time" content="2020-01-31T13:29:23+08:00" />
 <meta itemprop="name" content="使用hugo搭建博客">
-<meta itemprop="description" content="Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框">
+<meta itemprop="description" content="Hugo 是 Go 语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo 和 Hexo 一样，是一种通用的网站框架。这类应用将">
 <meta itemprop="datePublished" content="2020-01-31T13:29:23&#43;08:00" />
 <meta itemprop="dateModified" content="2020-01-31T13:29:23&#43;08:00" />
-<meta itemprop="wordCount" content="2039">
+<meta itemprop="wordCount" content="1845">
 
 
 
-<meta itemprop="keywords" content="hugo,blog," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="hugo,blog,front end," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用hugo搭建博客"/>
-<meta name="twitter:description" content="Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框"/>
+<meta name="twitter:description" content="Hugo 是 Go 语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo 和 Hexo 一样，是一种通用的网站框架。这类应用将"/>
 
   </head>
 
@@ -111,34 +111,33 @@
     <time class="f6 mv4 dib tracked" datetime="2020-01-31T13:29:23&#43;08:00">January 31, 2020</time>
     
     
-    <span class="post-word-count">, 2039 words</span>
+    <span class="post-word-count">, 1845 words</span>
   </header>
 
-  <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框架。这类应用将 Markdown文件和主题一起编译成由 HTML、CSS、JavaScript组成的静态网页。
-下面简单介绍一下如何使用hugo来搭建一个博客。</p>
-<h1 id="step-1install-hugo安装hugo">Step 1:Install Hugo/安装Hugo</h1>
-<h2 id="windows安装方式">windows安装方式：</h2>
+  <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugo 是 Go 语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo 和 Hexo 一样，是一种通用的网站框架。这类应用将 Markdown 文件和主题一起编译成由 HTML、CSS、JavaScript 组成的静态网页。
+下面简单介绍一下如何使用 hugo 来搭建一个博客。</p>
+<h1 id="step-1install-hugo安装-hugo">Step 1:Install Hugo/安装 Hugo</h1>
+<h2 id="windows-安装方式">windows 安装方式：</h2>
 <ol>
-<li>去 <a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>页面下载hugo_xxx_Windows-64bit.zip，32位就下载32位的。</li>
-<li>下载后解压，将hugo.exe放到D:\Software\hugo</li>
-<li>将D:\Software\hugo加到PATH</li>
-</ol>
+<li>去 <a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>页面下载 hugo_xxx_Windows-64bit.zip，32 位就下载 32 位的。</li>
+<li>下载后解压，将 hugo.exe 放到 D:\Software\hugo</li>
+<li>将 D:\Software\hugo 加到 PATH
 <blockquote>
-<p>如何设置环境变量path？<br>
-打开文件夹&ndash;&gt;右击此电脑&ndash;&gt;选择属性&ndash;&gt;高级系统设置&ndash;&gt;环境变量&ndash;&gt;双击path&ndash;&gt;新建&ndash;&gt;将hugo.exe所在的路径复制粘贴&ndash;&gt;确定</p>
+<p>如何设置环境变量 path？<br>
+打开文件夹&ndash;&gt;右击此电脑&ndash;&gt;选择属性&ndash;&gt;高级系统设置&ndash;&gt;环境变量&ndash;&gt;双击 path&ndash;&gt;新建&ndash;&gt;将 hugo.exe 所在的路径复制粘贴&ndash;&gt;确定</p>
 </blockquote>
-<ol start="4">
-<li>重启终端，运行<code>hugo version</code>查看版本，若出现版本号表示成功安装，若不成功，查看加入path的路径是否填对。</li>
+</li>
+<li>重启终端，运行<code>hugo version</code>查看版本，若出现版本号表示成功安装，若不成功，查看加入 path 的路径是否填对。</li>
 </ol>
 <pre><code>λ hugo version
 Hugo Static Site Generator v0.63.1-CE9ACEB7 windows/amd64 BuildDate: 2020-01-23T20:09:17Z
 </code></pre><h1 id="step-2create-a-new-site创建一个新网站">Step 2:Create a New Site/创建一个新网站</h1>
 <p><code>hugo new site 81kong.github.io-creator</code>
-上面的代码将会在81kong.github.io-creator文件夹里创建一个新的网站</p>
+上面的代码将会在 81kong.github.io-creator 文件夹里创建一个新的网站</p>
 <h1 id="step-3-add-a-theme添加主题">Step 3: Add a Theme/添加主题</h1>
-<p>我使用默认的ananke主题
-首先，我们先进入创建的文件夹81kong.github.io-creator，并初始化。
-然后，从github上下载主题ananke，代码如下：</p>
+<p>我使用默认的 ananke 主题
+首先，我们先进入创建的文件夹 81kong.github.io-creator，并初始化。
+然后，从 github 上下载主题 ananke，代码如下：</p>
 <pre><code>cd 81kong.github.io-creator
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
@@ -146,31 +145,31 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 <code>echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml</code></p>
 <p>此时的目录结构应该是这样:</p>
 <blockquote>
-</blockquote>
 <p>.<br>
 ├── archetypes # 内容类型，在创建新内容时自动生成内容的配置<br>
 ├── content # 网站内容，Markdown 文件<br>
-├── data <br>
+├── data<br>
 ├── layouts # 网站模版，选择主题后会将主题中的 layouts 文件夹中的内容复制到此文件夹中<br>
 ├── static # 包含 CSS、JavaScript、Fonts、media 等，决定网站的外观。选择主题后会将主题中的 ststic 文件夹中的内容复制到此文件夹中<br>
 ├── themes # 存放主题文件<br>
 └── config.toml # 网站的配置文件</p>
+</blockquote>
 <h1 id="step-4-add-some-content添加一些内容">Step 4: Add Some Content/添加一些内容</h1>
-<p>写一篇新博客，名字叫《使用hugo搭建博客》
-<code>hugo new posts/使用hugo搭建博客.md </code><br>
-此时 content 文件夹下就多了一个 使用hugo搭建博客.md 文件，打开文件就可以看到时间、文件名等信息已经自动生成了:</p>
-<pre><code>---  
-title: &quot;使用hugo搭建博客&quot; 
-date: 2020-01-31T13:29:23+08:00 
-draft: true 
---- 
+<p>写一篇新博客，名字叫《使用 hugo 搭建博客》
+<code>hugo new posts/使用hugo搭建博客.md</code><br>
+此时 content 文件夹下就多了一个 使用 hugo 搭建博客.md 文件，打开文件就可以看到时间、文件名等信息已经自动生成了:</p>
+<pre><code>---
+title: &quot;使用hugo搭建博客&quot;
+date: 2020-01-31T13:29:23+08:00
+draft: true
+---
 </code></pre><p>两条 &mdash; 间的信息是文章的配置信息，有的信息是自动生成的 (如：title、date 等)，简单介绍以下各项配置:</p>
 <ul>
 <li>以下项目是自动生成的:<br>
 title: # 文章标题<br>
 date: # 写作时间<br>
-draft: # 是否为草稿，如果为 true 需要在命令中加入 &ndash;buildDrafts 参数才会生成这个文档。或者写完后改为false，则可以通过网址看到这篇博客。</li>
-<li>以下项目需要自行添加: <br>
+draft: # 是否为草稿，如果为 true 需要在命令中加入 &ndash;buildDrafts 参数才会生成这个文档。或者写完后改为 false，则可以通过网址看到这篇博客。</li>
+<li>以下项目需要自行添加:<br>
 description: # 描述<br>
 tags: # 标签，用于文章分类<br>
 自动生成 和 执行添加 的内容并不是绝对的，你可以根据自己的喜好配置模板文件 archetypes/default.md</li>
@@ -189,13 +188,13 @@ tags: # 标签，用于文章分类<br>
 <li>enableRobotsTXT = true # 支持 robots.txt</li>
 <li>googleAnalytics = &quot;&rdquo; # Google 统计 id</li>
 </ol>
-<h1 id="step-5-start-the-hugo-server启动hugo服务器">Step 5: Start the Hugo server/启动hugo服务器</h1>
-<p>现在，可以启动服务器： <br>
-<code>hugo server -D</code>  <br>
+<h1 id="step-5-start-the-hugo-server启动-hugo-服务器">Step 5: Start the Hugo server/启动 hugo 服务器</h1>
+<p>现在，可以启动服务器：<br>
+<code>hugo server -D</code><br>
 界面如下：</p>
 <pre><code>λ hugo server -D
-Building sites … 
-                   | EN  
+Building sites …
+                   | EN
 -------------------+-----
   Pages            | 11
   Paginator pages  |  0
@@ -207,18 +206,18 @@ Building sites …
   Cleaned          |  0
 
 Built in 51 ms
-Watching for changes in D:\rona\81kong.github.io-creator\{archetypes,content,data,layouts,static,themes}     
+Watching for changes in D:\rona\81kong.github.io-creator\{archetypes,content,data,layouts,static,themes}
 Watching for config changes in D:\rona\81kong.github.io-creator\config.toml
 Environment: &quot;development&quot;
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop  
-</code></pre><p>现在，可以通过<a href="http://localhost:1313/">http://localhost:1313/</a>来观看我的博客。 <br>
+Press Ctrl+C to stop
+</code></pre><p>现在，可以通过<a href="http://localhost:1313/">http://localhost:1313/</a>来观看我的博客。<br>
 可以随意编辑或者添加新内容，只需要在浏览器中刷新就可以快速查看更改。</p>
 <h1 id="step-6-customize-the-theme自定义主题">Step 6: Customize the Theme/自定义主题</h1>
 <h2 id="站点配置">站点配置</h2>
-<p>打开config.toml，自行配置</p>
+<p>打开 config.toml，自行配置</p>
 <pre><code>baseURL = &quot;http://81kong.github.io/&quot;
 languageCode = &quot;zh-Hans&quot;
 title = &quot;Rona's blog&quot;
@@ -233,14 +232,14 @@ enableEmoji = true
 <p>Hugo 并没有提供自动发布到 GitHub Pages 的功能。需要将 public 中的内容手动上传到 Github 上。<br>
 上传步骤如下：</p>
 <ol>
-<li>在81kong.github.io-creator文件夹里新建.gitignore文件，里面写上<code>/public/</code></li>
-<li>在github中建新仓库81kong.github.io</li>
-<li>cd public，将仓库复制到本地，将public推送到仓库81kong.github.io。</li>
-<li>通过settings即可找到预览网址。</li>
+<li>在 81kong.github.io-creator 文件夹里新建.gitignore 文件，里面写上<code>/public/</code></li>
+<li>在 github 中建新仓库 81kong.github.io</li>
+<li>cd public，将仓库复制到本地，将 public 推送到仓库 81kong.github.io。</li>
+<li>通过 settings 即可找到预览网址。</li>
 </ol>
-<h1 id="知识链接"><em>知识链接</em></h1>
+<h1 id="_知识链接_"><em>知识链接</em></h1>
 <p>如何在博客中添加字数统计：
-先在自己主题的single.html的配置中搜索要放的位置,并在{{ end }}后面添加一下代码,比如我的主题对应的single.html路径为themes\ananke\layouts_default\single.html，再添加如下代码：</p>
+先在自己主题的 single.html 的配置中搜索要放的位置,并在{{ end }}后面添加一下代码,比如我的主题对应的 single.html 路径为 themes\ananke\layouts_default\single.html，再添加如下代码：</p>
 <pre><code>&lt;span class=&quot;post-word-count&quot;&gt;, {{ .WordCount }} words&lt;/span&gt;
 </code></pre><p>·end·</p>
 <p>本文参考了以下文章：</p>
@@ -257,6 +256,10 @@ enableEmoji = true
   
    <li class="list">
      <a href="/tags/blog" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">blog</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/front-end" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">front end</a>
    </li>
   
 </ul>

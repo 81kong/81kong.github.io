@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rona&#39;s blog  | 如何在hugo中插入图片并上传之GitHub pages</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.63.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.3f5912c237ddd38c8e76debe081c7ca7.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="如何在hugo中插入图片并上传之GitHub pages" />
+<meta property="og:description" content="1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://juruonan.xyz/posts/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/" />
+<meta property="article:published_time" content="2020-02-06T11:02:10+08:00" />
+<meta property="article:modified_time" content="2020-02-06T11:02:10+08:00" />
+<meta itemprop="name" content="如何在hugo中插入图片并上传之GitHub pages">
+<meta itemprop="description" content="1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只">
+<meta itemprop="datePublished" content="2020-02-06T11:02:10&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-06T11:02:10&#43;08:00" />
+<meta itemprop="wordCount" content="556">
+
+
+
+<meta itemprop="keywords" content="HTML,front end,hugo,image," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何在hugo中插入图片并上传之GitHub pages"/>
+<meta name="twitter:description" content="1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://juruonan.xyz/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rona&#39;s blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+  <header class="mt4 w-100">
+    <p class="f6 b helvetica tracked">
+      
+      POSTS
+    </p>
+    <h1 class="f1 athelas mb1">如何在hugo中插入图片并上传之GitHub pages</h1>
+    
+    
+    <time class="f6 mv4 dib tracked" datetime="2020-02-06T11:02:10&#43;08:00">February 6, 2020</time>
+    
+    
+    <span class="post-word-count">, 556 words</span>
+  </header>
+
+  <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只在 static 中。<br>
+结论，两种方法可行 AB：<br>
+<strong>1.formxxx.png<br>
+2.y posts formyyy.png<br>
+6.y static/../formyyy.png<br>
+7.static/../c.png</strong><br>
+<strong>A:建一个以文章名称命名的文件夹，里面放一个 index.md 文件，图片等文件就也放当前文章这个文件夹里面即可。<br>
+B:在 static/images 中加入图片，然后图片 src 写 static/../c.png 即可。</strong></p>
+<hr>
+<p>测试结果如下：</p>
+<p>1.x posts formxxx.png:
+<img src="formxxx.png" alt="xxx">
+2.y posts formyyy.png:
+<img src="formyyy.png" alt="yyy">
+3.y static/../../../../static/images/formyyy.png :
+<img src="static/../../../../static/images/formyyy.png" alt="y3">
+4.y /public/images/formyyy.png :
+<img src="/public/images/formyyy.png" alt="y4">
+5.y static/../../../../themes/ananke/static/images/gohugo-default-sample-hero-image.jpg :
+<img src="static/../../../../themes/ananke/static/images/gohugo-default-sample-hero-image.jpg" alt="y5">
+6.y static/../formyyy.png :
+<img src="static/../formyyy.png" alt="y6">
+7.c static/../c.png (本地预览不了):
+<img src="static/../c.png" alt="c7">
+8.c static/../../../../static/images/c.png :
+<img src="static/../../../../static/images/c.png" alt="c8"><br>
+9.c static/images/c.png :
+<img src="/static/images/c.png" alt="c8"><br>
+如果是要插入图片的，就建一个以文章名称命名的文件夹，里面放一个 index.md 文件，图片等文件就也放当前文章这个文件夹里面即可。</p>
+<p>这样，既能保证本地编辑是能实时渲染，也能保证最终呈现是正确无误的，而工作环境仅需要考虑当前文件夹，不用翻来覆去地寻找和核对。</p>
+<p>而如果是不需要插入图片的文章，依然还是一个以文章名称命名的 .md 文件即可。</p>
+<p>如果需要转移文章到新的目录，或者是寻找一个图片，都无需担心太多，直接操作，以文件夹为管理核心即可。</p>
+<p>这便是我的内容资源管理方案，很不错了。</p>
+<p>废话这么多，还是不如放一个文件夹路径图来的有视觉感：
+├── posts<br>
+│ ├── 2018-04-13-搜索服务的.md<br>
+│ ├── 2018-04-18-小到 Hugo.md<br>
+│ ├── 2018-04-26-图片测试<br>
+│ │ ├── formxxx.png<br>
+│ │ ├── formyyy.png<br>
+│ │ └── index.md<br>
+│ ├── 2018-05-02-12345.md<br>
+│ └── 2018-05-03-Hugo 的文件管理方案.md</p>
+<p>感谢
+<a href="https://www.isyin.cn/post/2018-05-03-hugo-%E7%9A%84%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/">https://www.isyin.cn/post/2018-05-03-hugo-%E7%9A%84%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88/</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">HTML</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/front-end" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">front end</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/image" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">image</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+    </div>
+  </section>
+
+  <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/">HTML常用标签</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/">HTML入门笔记1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">使用hugo搭建博客</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+</article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://juruonan.xyz/" >
+    &copy;  Rona's blog 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

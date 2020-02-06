@@ -9,31 +9,46 @@
   
   <url>
     <loc>http://juruonan.xyz/tags/front-end/</loc>
-    <lastmod>2020-02-03T17:33:17+08:00</lastmod>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://juruonan.xyz/tags/html/</loc>
-    <lastmod>2020-02-03T17:33:17+08:00</lastmod>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2020-02-03T17:33:17+08:00</lastmod>
+    <loc>http://juruonan.xyz/tags/hugo/</loc>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://juruonan.xyz/tags/image/</loc>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://juruonan.xyz/posts/</loc>
-    <lastmod>2020-02-03T17:33:17+08:00</lastmod>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://juruonan.xyz/</loc>
-    <lastmod>2020-02-03T17:33:17+08:00</lastmod>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://juruonan.xyz/tags/</loc>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://juruonan.xyz/posts/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2020-02-06T11:02:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2020-02-03T17:33:17+08:00</lastmod>
   </url>
   
@@ -44,11 +59,6 @@
   
   <url>
     <loc>http://juruonan.xyz/tags/blog/</loc>
-    <lastmod>2020-01-31T13:29:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://juruonan.xyz/tags/hugo/</loc>
     <lastmod>2020-01-31T13:29:23+08:00</lastmod>
   </url>
   
