@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Rona&#39;s blog</title>
-    <link>http://81kong.github.io/posts/</link>
+    <link>http://juruonan.xyz/posts/</link>
     <description>Recent content in Posts on Rona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 03 Feb 2020 17:33:17 +0800</lastBuildDate>
     
-	<atom:link href="http://81kong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://juruonan.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML常用标签</title>
-      <link>http://81kong.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <link>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Mon, 03 Feb 2020 17:33:17 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
-      <description>本篇博客主要为课堂笔记，主要在VSCode中操作，项目文件夹名为html-demo-2，以下内容分为四个主要部分： a 标签的用法 table 标签的用法 img</description>
+      <guid>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>本篇博客主要为课堂笔记，主要在 VSCode 中操作，项目文件夹名为 html-demo-2，以下内容分为四个主要部分： a 标签的用法 table 标签的用法 img 标签的用法</description>
     </item>
     
     <item>
       <title>HTML入门笔记1</title>
-      <link>http://81kong.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <link>http://juruonan.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Sun, 02 Feb 2020 15:56:08 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <guid>http://juruonan.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
       <description>本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。 一、什么是 HTML？ 超文本标记语言(Hypert</description>
     </item>
     
     <item>
       <title>使用hugo搭建博客</title>
-      <link>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://juruonan.xyz/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框</description>
     </item>
     
     <item>
       <title>第二篇boke</title>
-      <link>http://81kong.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87/</link>
+      <link>http://juruonan.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87/</link>
       <pubDate>Wed, 29 Jan 2020 08:02:10 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87/</guid>
+      <guid>http://juruonan.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87/</guid>
       <description>刚没看到第二篇，所以改了日期到29就看到了。 1.30新加的内容，居然能看到了，神奇。</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://81kong.github.io/posts/my-first-post/</link>
+      <link>http://juruonan.xyz/posts/my-first-post/</link>
       <pubDate>Sat, 25 Jan 2020 22:00:19 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/my-first-post/</guid>
+      <guid>http://juruonan.xyz/posts/my-first-post/</guid>
       <description>第一篇博客 大家好！ 我要经常写博客。 hugo server -D</description>
     </item>
     

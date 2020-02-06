@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>front end on Rona&#39;s blog</title>
-    <link>http://81kong.github.io/tags/front-end/</link>
+    <link>http://juruonan.xyz/tags/front-end/</link>
     <description>Recent content in front end on Rona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 03 Feb 2020 17:33:17 +0800</lastBuildDate>
     
-	<atom:link href="http://81kong.github.io/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://juruonan.xyz/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML常用标签</title>
-      <link>http://81kong.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <link>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Mon, 03 Feb 2020 17:33:17 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
-      <description>本篇博客主要为课堂笔记，主要在VSCode中操作，项目文件夹名为html-demo-2，以下内容分为四个主要部分： a 标签的用法 table 标签的用法 img</description>
+      <guid>http://juruonan.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>本篇博客主要为课堂笔记，主要在 VSCode 中操作，项目文件夹名为 html-demo-2，以下内容分为四个主要部分： a 标签的用法 table 标签的用法 img 标签的用法</description>
     </item>
     
     <item>
       <title>HTML入门笔记1</title>
-      <link>http://81kong.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <link>http://juruonan.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Sun, 02 Feb 2020 15:56:08 +0800</pubDate>
       
-      <guid>http://81kong.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <guid>http://juruonan.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
       <description>本文简单介绍了 HTML 的发展历史和用法。还介绍了常用的全局属性以及一些标签，如章节标签和内容标签。 一、什么是 HTML？ 超文本标记语言(Hypert</description>
     </item>
     

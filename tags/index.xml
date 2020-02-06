@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rona&#39;s blog</title>
-    <link>http://81kong.github.io/tags/</link>
+    <link>http://juruonan.xyz/tags/</link>
     <description>Recent content in Tags on Rona&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Mon, 03 Feb 2020 17:33:17 +0800</lastBuildDate>
     
-	<atom:link href="http://81kong.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://juruonan.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>front end</title>
-      <link>http://81kong.github.io/tags/front-end/</link>
+      <link>http://juruonan.xyz/tags/front-end/</link>
       <pubDate>Mon, 03 Feb 2020 17:33:17 +0800</pubDate>
       
-      <guid>http://81kong.github.io/tags/front-end/</guid>
+      <guid>http://juruonan.xyz/tags/front-end/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>http://81kong.github.io/tags/html/</link>
+      <link>http://juruonan.xyz/tags/html/</link>
       <pubDate>Mon, 03 Feb 2020 17:33:17 +0800</pubDate>
       
-      <guid>http://81kong.github.io/tags/html/</guid>
+      <guid>http://juruonan.xyz/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://81kong.github.io/tags/blog/</link>
+      <link>http://juruonan.xyz/tags/blog/</link>
       <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
       
-      <guid>http://81kong.github.io/tags/blog/</guid>
+      <guid>http://juruonan.xyz/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://81kong.github.io/tags/hugo/</link>
+      <link>http://juruonan.xyz/tags/hugo/</link>
       <pubDate>Fri, 31 Jan 2020 13:29:23 +0800</pubDate>
       
-      <guid>http://81kong.github.io/tags/hugo/</guid>
+      <guid>http://juruonan.xyz/tags/hugo/</guid>
       <description></description>
     </item>
     
