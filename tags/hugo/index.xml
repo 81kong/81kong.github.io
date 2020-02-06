@@ -17,7 +17,7 @@
       <pubDate>Thu, 06 Feb 2020 11:02:10 +0800</pubDate>
       
       <guid>http://juruonan.xyz/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%B9%B6%E4%B8%8A%E4%BC%A0%E4%B9%8Bgithub-pages/</guid>
-      <description>1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只</description>
+      <description>1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，**再建一个且必须名为 index.md**文件。 x 只在 posts 中有，y 在 posts 和 st</description>
     </item>
     
     <item>
